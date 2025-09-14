@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 import cv2
 import numpy as np
@@ -160,4 +159,3 @@ for location in os.listdir(VIDEO_DIR):
         print(f"Saved {output_file} with {all_descriptors.shape[0]} descriptors")
     else:
         print(f"No descriptors extracted for {location}")
->>>>>>> 2c3116775144c8aade7ffd461eff28270a2266ae
