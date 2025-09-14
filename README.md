@@ -12,8 +12,6 @@ The dataset was collected from indoor environments (eg: hallways, musolla, café
 | Item | Description |
 |---|-------------|
 | `features_npz/` | `.npz` files storing extracted feature descriptors (e.g. ORB) |
-| `raw_images/` | (Optional) Original images collected from indoor environments |
-| `labels.csv` | Mapping of image/picture locations to class labels |
 | `extract_frames.py` | Script to extract image frames (if starting from video / larger image collections) |
 | `extract_features.py` | Script to compute feature descriptors from images and save as NPZ |
 
