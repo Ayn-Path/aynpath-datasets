@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 import cv2
 
@@ -94,4 +93,3 @@ for location in os.listdir(VIDEO_DIR):
 
         cap.release()
         print(f"  Extracted {frame_count} frames from {video_file}")
->>>>>>> 2c3116775144c8aade7ffd461eff28270a2266ae
