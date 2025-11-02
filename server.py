@@ -5,7 +5,7 @@ import time
 from flask import Flask, request, jsonify
 
 # Configuration
-FEATURES_DIR = "C:/Users/mhmda/Downloads/aynpath-coding/datasets/features_npz"
+FEATURES_DIR = os.path.join(BASE_DIR, "features_npz")
 MAX_DB_DESCRIPTORS = 200000  # limit per location for faster matching
 RATIO_THRESH = 0.75          # Lowe's ratio test threshold
 
@@ -93,4 +93,5 @@ def predict_location():
 
 if __name__ == '__main__':
     print("Starting server on 0.0.0.0:5000")
+
     app.run(host='0.0.0.0', port=5000)
