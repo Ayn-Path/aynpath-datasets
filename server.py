@@ -5,6 +5,7 @@ import time
 from flask import Flask, request, jsonify
 
 # Configuration
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FEATURES_DIR = os.path.join(BASE_DIR, "features_npz")
 MAX_DB_DESCRIPTORS = 200000  # limit per location for faster matching
 RATIO_THRESH = 0.75          # Lowe's ratio test threshold
@@ -95,3 +96,4 @@ if __name__ == '__main__':
     print("Starting server on 0.0.0.0:5000")
 
     app.run(host='0.0.0.0', port=5000)
+
