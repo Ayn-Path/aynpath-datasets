@@ -1,4 +1,4 @@
-# aynpath-datasets
+# aynpath-server_datasets
 
 ## Overview  
 This repository contains the **image feature datasets (NPZ format)** used in the *Ayn-Path Indoor Navigation System*. 
